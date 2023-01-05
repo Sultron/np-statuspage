@@ -151,30 +151,30 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
 
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: General Services
+      description: The main services are located here.
       closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
+      untitled: false
+    - name: Discord Bots
+      description: The bots that are used on the Discord server.
+      closed: true
+      untitled: false
 
   systems:
     - name: Website
       description: The web frontend for the application.
-      category: Uncategorized
+      category: General Services
       link: https://nevadapath.com/
     - name: Feedback form
       description: API for the feedback form page.
-      category: Uncategorized
-      link: https://contact.nevadapath.com/
-    - name: Discord bots
-      description: The status of our Discord bots.
-      category: Uncategorized
-      link: https://bots.nevadapath.com/
+      category: General Services
     - name: Blog API
       description: The API for the blog page.
-      category: Uncategorized
+      category: General Services
       link: https://nevadapath.com/blog
+    - name: Grade chart bot
+      description: The status of our grade chart Discord bot.
+      category: Discord Bots
 
   # What date format to use?
   #
