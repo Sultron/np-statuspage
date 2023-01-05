@@ -149,6 +149,15 @@ params:
   #
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
+
+  categories:
+    - name: North Coast
+      description: The main servers are located here.
+      closed: true
+    - name: Empty Category
+    - name: Uncategorized
+      untitled: true
+
   systems:
     - name: Website
       description: The web frontend for the application.
